@@ -60,8 +60,8 @@ install(TARGETS
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION bin
 )
-install(DIRECTORY include/
-  DESTINATION include
+install(DIRECTORY include/${PROJECT_NAME}
+  DESTINATION include/${PROJECT_NAME}
 )
 install(PROGRAMS
     scripts/bag_converter
