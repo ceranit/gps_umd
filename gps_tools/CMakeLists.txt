@@ -61,7 +61,7 @@ install(TARGETS
   RUNTIME DESTINATION bin
 )
 install(DIRECTORY include/${PROJECT_NAME}
-  DESTINATION include/${PROJECT_NAME}
+  DESTINATION include
 )
 install(PROGRAMS
     scripts/bag_converter
